@@ -1,0 +1,18 @@
+body {
+    background-color: #dedede;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Yomogi', cursive;
+}
+
+.gridSquare {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: inline-block;
+    margin-top: -4px;
+    border: 1px solid #dedede;
+}
