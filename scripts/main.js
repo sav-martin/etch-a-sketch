@@ -16,3 +16,20 @@ function generateGrid (grid) {
 
 generateGrid(grid);
 
+const gridSquares = grid.querySelectorAll('.gridSquare');
+
+gridSquares.forEach((gridSquare) => {
+    gridSquare.addEventListener('mouseenter', () => {
+        gridSquare.classList.add('active');
+    });
+});
+
+grid.addEventListener('mouseleave', () => {
+    gridSquares.forEach((gridSquare) => {
+        gridSquare.classList.remove('active');
+    });
+});
+
+
+
+

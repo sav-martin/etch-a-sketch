@@ -8,6 +8,10 @@ h1 {
     font-family: 'Yomogi', cursive;
 }
 
+#gridContainer {
+    display: inline-block;
+    margin: 0 auto;
+}
 .gridSquare {
     height: 40px;
     width: 40px;
@@ -15,4 +19,8 @@ h1 {
     display: inline-block;
     margin-top: -4px;
     border: 1px solid #dedede;
+}
+
+.active {
+    background-color: #40916c;
 }
